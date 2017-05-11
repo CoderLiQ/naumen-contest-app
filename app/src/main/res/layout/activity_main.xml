@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+<LinearLayout
+    android:id="@+id/lMain"
+    android:layout_width="wrap_content"
+    android:layout_height="0dp"
+    android:orientation="vertical"
+    android:layout_weight="1"
+    >
+
+
+    <ListView
+        android:id="@+id/lvMain"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content">
+
+    </ListView>
+
+
+
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="bottom"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/prevPageBtn"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="prev"/>
+
+        <Button
+            android:layout_weight="1"
+            android:id="@+id/curPageBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="page: " />
+
+
+        <Button
+            android:id="@+id/nextPageBtn"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="next"/>
+    </LinearLayout>
+
+    <!--<TextView-->
+        <!--android:id="@+id/testTv"-->
+        <!--android:layout_width="175dp"-->
+        <!--android:layout_height="172dp"-->
+        <!--android:background="@color/colorAccent" />-->
+</LinearLayout>
